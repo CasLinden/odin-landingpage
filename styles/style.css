@@ -21,7 +21,6 @@ body {
 .logo {
     font-size: 48px;
     font-weight: 900;
-
 }
 
 ul {
@@ -38,6 +37,15 @@ a {
 
 .content {
  flex: 1;
+}
+
+.one {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
 }
 
 
