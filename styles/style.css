@@ -14,6 +14,12 @@ body {
     justify-content: space-between;
 }
 
+.wrapper {
+    width: 75%;
+    max-width: 1250px;
+    margin: auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -124,7 +130,7 @@ p {
 }
 .three {
     background-color: #e5e7EB;
-    padding: 72px 200px 24px 200px;
+    padding: 84px 200px 42px 200px;
 }
 
 .quote {
@@ -142,11 +148,10 @@ p {
 
 .four {
     background-color: #f9faf8;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 150px;
+    padding: 72px 150px;
 }
 
 .calltoaction {
@@ -174,12 +179,11 @@ p {
 
 
 .footer {
-    padding:32px 150px;
+    padding:16px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    height: 72px;
     color: #f9faf8;
 }
 
