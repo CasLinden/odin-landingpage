@@ -1,4 +1,9 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 html {
+    box-sizing: border-box;
     font-family: 'Roboto';
 }
 
@@ -19,7 +24,7 @@ body {
 }
 
 .logo {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -35,27 +40,141 @@ a {
  font-size: 18px;
 }
 
-.content {
- flex: 1;
-}
 
 .one {
     display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 100px 150px;
+    gap: 48px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+h1{
+    color: #f9faf8;
+    font-size: 48px;
+    margin: 0px;
+}
+
+p {
+    margin-block-start: 0em;
+}
+
+.signup {
+    width: 120px;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 8px 16px;
+    font-weight: 700;
+    background-color: #3882f6;
+    border: none;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 
+.picone {
+    width: 100%;
+    height: 200px;
+}
 
+.two {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 200px;
+    padding-bottom: 96px;
+    align-items: center;
+}
 
+.container {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.infopicholder {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.infopic {
+    height: 100px;
+    width: 100px;
+}
+
+.text {
+    text-align: center;
+    color: #4e535c;
+}
+.three {
+    background-color: #e5e7EB;
+    padding: 72px 200px 24px 200px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.quotefooter {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.four {
+    background-color: #f9faf8;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 200px;
+}
+
+.calltoaction {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 100%;
+    color: #e5e7eb;
+    padding: 36px;
+}
+
+.signupbottom {
+    background-color: #3882f6;
+    border: solid 2px #e5e7eb;
+    color:#e5e7eb;
+    border-radius: 10px;
+    width: 120px;
+    padding: 8px 16px;
+}
+
+.lefttop {
+    font-weight: 700;
+}
 
 
 .footer {
-    padding:0px 150px;
+    padding:32px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
