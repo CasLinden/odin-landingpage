@@ -15,7 +15,6 @@ body {
 }
 
 .wrapper {
-    width: 75%;
     max-width: 1250px;
     margin: auto;
 }
@@ -179,7 +178,7 @@ p {
 
 
 .footer {
-    padding:16px 150px;
+    padding: 16px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
